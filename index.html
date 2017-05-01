@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+</head>
+<body>
+        <nav>
+            <ul class="main-nav">
+                <li class="menu-bar"><img class="hamburger" src="img/Hamburger.png"><img class="x-icon" src="img/X-Icon.png">MENU</li>
+                <li class="line-item">Home</li>
+                <li id="dropdown">Products
+                    <ul id="sub-nav">
+                        <li>Hats</li>
+                        <li>Gloves</li>
+                        <li>Shoes</li>
+                        <li>Pumpkins</li>
+                    </ul>
+                </li>
+                <li class="line-item">Contact</li>
+            </ul>
+        </nav>
+    
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+    
+$(window).load(function() {
+    
+    //on click of class menu-bar
+    $(".menu-bar").click(function() {
+
+        //toggle the display of classes line-item & dropdown
+        $(".line-item, #dropdown").toggle();
+        $(".hamburger, .x-icon").toggle();
+
+    });
+    
+    //on click of class dropdown
+    $("#dropdown").click(function() {
+
+        $("#sub-nav").slideToggle();
+
+    }); 
+    
+});
+
+var dropdown = document.getElementById('dropdown');
+var subnav = document.getElementById('sub-nav');
+    
+    dropdown.addEventListener('click', function(){
+        if (subnav.classList.contains('active')){
+            subnav.classList.remove('active');
+            this.classList.remove('active-nav');
+        }
+        else {
+            subnav.classList.add('active');
+            this.classList.add('active-nav');
+        }
+    });
+
+    
+</script>
+
+</body>
+</html>
