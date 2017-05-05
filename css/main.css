@@ -8,256 +8,219 @@
 .clear:after, .row:after {
   clear: both; }
 
-/* Talk about this "magic" in Wednesday's lecture. */
 @media all and (max-width: 40em) {
   .small-1 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 8.33%;
     margin: 0%; }
 
   .small-2 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 16.66%;
     margin: 0%; }
 
   .small-3 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 24.99%;
     margin: 0%; }
 
   .small-4 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 33.32%;
     margin: 0%; }
 
   .small-5 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 41.65%;
     margin: 0%; }
 
   .small-6 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 49.98%;
     margin: 0%; }
 
   .small-7 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 58.31%;
     margin: 0%; }
 
   .small-8 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 66.64%;
     margin: 0%; }
 
   .small-9 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 74.97%;
     margin: 0%; }
 
   .small-10 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 83.3%;
     margin: 0%; }
 
   .small-11 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 91.63%;
     margin: 0%; }
 
   .small-12, nav li {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 99.96%;
     margin: 0%; } }
 @media all and (min-width: 40.01em) and (max-width: 64em) {
   .medium-1 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 8.33%;
     margin: 0%; }
 
   .medium-2 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 16.66%;
     margin: 0%; }
 
   .medium-3, nav #sub-nav li {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 24.99%;
     margin: 0%; }
 
   .medium-4, nav li {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 33.32%;
     margin: 0%; }
 
   .medium-5 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 41.65%;
     margin: 0%; }
 
   .medium-6 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 49.98%;
     margin: 0%; }
 
   .medium-7 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 58.31%;
     margin: 0%; }
 
   .medium-8 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 66.64%;
     margin: 0%; }
 
   .medium-9 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 74.97%;
     margin: 0%; }
 
   .medium-10 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 83.3%;
     margin: 0%; }
 
   .medium-11 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 91.63%;
     margin: 0%; }
 
   .medium-12 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 99.96%;
     margin: 0%; } }
 @media all and (min-width: 64.01em) {
   .large-1 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 8.33%;
     margin: 0%; }
 
   .large-2, nav li {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 16.66%;
     margin: 0%; }
 
   .large-3 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 24.99%;
     margin: 0%; }
 
   .large-4 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 33.32%;
     margin: 0%; }
 
   .large-5 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 41.65%;
     margin: 0%; }
 
   .large-6 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 49.98%;
     margin: 0%; }
 
   .large-7 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 58.31%;
     margin: 0%; }
 
   .large-8 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 66.64%;
     margin: 0%; }
 
   .large-9 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 74.97%;
     margin: 0%; }
 
   .large-10 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 83.3%;
     margin: 0%; }
 
   .large-11 {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 91.63%;
     margin: 0%; }
 
   .large-12, nav ul.main-nav {
     float: left;
-    padding: 10px;
     box-sizing: border-box;
     width: 99.96%;
     margin: 0%; } }
@@ -277,31 +240,44 @@ nav ul.main-nav {
   overflow: visible; }
 nav li {
   display: inline-block;
-  padding: 15px;
-  border-right: 1px solid #fff;
-  border-bottom: 1px solid #fff;
   text-align: center;
   color: #FFF;
   background-color: #2DA9FF;
   font-family: 'Inconsolata', monospace;
   font-weight: 700;
-  font-size: 24px; }
+  font-size: 24px;
+  color: #FFF;
+  background-color: #2DA9FF;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff; }
+nav a {
+  font-family: 'Inconsolata', monospace;
+  color: #FFF;
+  text-decoration: none;
+  padding: 25px;
+  line-height: 56px; }
 nav li:hover, nav .active-nav {
   background-color: #0A75BE; }
 nav #sub-nav {
-  display: none;
-  margin-top: 15px; }
+  display: none; }
   @media all and (min-width: 40.01em) and (max-width: 64em) {
     nav #sub-nav {
       width: 100%;
       position: absolute;
       top: 38px;
-      left: 0px; } }
+      left: 0px;
+      margin-top: 19px; } }
   nav #sub-nav li {
-    padding: 15px;
     border: none; }
+    @media all and (min-width: 64.01em) {
+      nav #sub-nav li {
+        width: 100%; } }
+  nav #sub-nav a {
+    padding: 15px; }
 nav img {
-  float: left; }
+  position: absolute;
+  top: 15px;
+  left: 15px; }
 nav img.x-icon {
   display: none; }
 
