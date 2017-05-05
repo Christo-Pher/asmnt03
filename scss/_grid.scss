@@ -35,13 +35,11 @@ $largeMin: 64.01em;
 
 $sizes: small, medium, large;
 
-/* Talk about this "magic" in Wednesday's lecture. */
 @each $size in $sizes {
     @include screenSize($size) {
         @for $col from 1 through 12 {
-            .#{$size}-#{$col} {  // .samll-1 { | .medium-1  { | .large-1 {
+            .#{$size}-#{$col} {  // .small-1 { | .medium-1  { | .large-1 {
                 float: left;
-                padding: 10px;
                 box-sizing: border-box;
                 width: ($col * 8.33%); // 1 * 25% | 1* 25% | 1 * 25%
                 margin: ($col * 0%);
