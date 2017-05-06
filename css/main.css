@@ -248,8 +248,14 @@ nav li {
   font-size: 24px;
   color: #FFF;
   background-color: #2DA9FF;
-  border-right: 1px solid #fff;
-  border-bottom: 1px solid #fff; }
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff; }
+  @media all and (max-width: 40em) {
+    nav li {
+      border-right: none; } }
+@media all and (min-width: 40.01em) and (max-width: 64em) {
+  nav .last-li {
+    border-right: none; } }
 nav a {
   font-family: 'Inconsolata', monospace;
   color: #FFF;
@@ -266,7 +272,7 @@ nav #sub-nav {
       position: absolute;
       top: 38px;
       left: 0px;
-      margin-top: 19px; } }
+      margin-top: 20px; } }
   nav #sub-nav li {
     border: none; }
     @media all and (min-width: 64.01em) {
